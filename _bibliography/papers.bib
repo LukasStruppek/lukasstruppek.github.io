@@ -1,17 +1,38 @@
 ---
 ---
 
+@article{hintersdorf22clipping,
+  author = {Dominik Hintersdorf and Lukas Struppek and Kristian Kersting},
+  title     = {CLIPping Privacy: Identity Inference Attacks on Multi-Modal Machine Learning Models},
+  journal   = {arXiv preprint},
+  volume    = {arXiv:2209.07341},
+  year      = {2022},
+  pdf       = {https://arxiv.org/pdf/2209.07341},
+  abstract={As deep learning is now used in many real-world applications, research has focused increasingly on the privacy of deep learning models 
+      and how to prevent attackers from obtaining sensitive information about the training data. However, image-text models like CLIP have not yet been 
+      looked at in the context of privacy attacks. While membership inference attacks aim to tell whether a specific data point was used for training, 
+      we introduce a new type of privacy attack, named identity inference attack (IDIA), designed for multi-modal image-text models like CLIP. 
+      Using IDIAs, an attacker can reveal whether a particular person, was part of the training data by querying the model in a black-box fashion with 
+      different images of the same person. Letting the model choose from a wide variety of possible text labels, the attacker can probe the model 
+      whether it recognizes the person and, therefore, was used for training. Through several experiments on CLIP, we show that the attacker can 
+      identify individuals used for training with very high accuracy and that the model learns to connect the names with the depicted people. 
+      Our experiments show that a multi-modal image-text model indeed leaks sensitive information about its training data and, therefore, 
+      should be handled with care.},
+  bibtex_show={true},
+  code={https://github.com/D0miH/clipping_privacy}
+}
+
 @article{uhlig22dlam,
   author    = {Frieder Uhlig* and
                Lukas Struppek* and
                Dominik Hintersdorf* and
                Kristian Kersting},
   title     = {Transformer-Boosted Anomaly Detection with Fuzzy Hashes},
-  journal   = {CoRR},
-  volume    = {abs/2208.11367},
+  journal   = {arXiv preprint},
+  volume    = {arXiv:2208.11367},
   year      = {2022},
   pdf       = {https://arxiv.org/pdf/2208.11367},
-      abstract={Fuzzy hashes are an important tool in digital forensics and are used in approximate matching to determine the similarity 
+  abstract={Fuzzy hashes are an important tool in digital forensics and are used in approximate matching to determine the similarity 
       between digital artifacts. They translate the byte code of files into computable strings, which makes them particularly interesting 
       for intelligent machine processing. In this work, we propose deep learning approximate matching (DLAM), which achieves much higher 
       accuracy in detecting anomalies in fuzzy hashes than conventional approaches. In addition to the well-known application for clustering 
@@ -45,10 +66,10 @@
       Moreover, we show that powerful MIAs are possible even with publicly available pre-trained GANs and under strong distributional shifts, 
       for which previous approaches fail to produce meaningful results. Our extensive evaluation confirms the improved robustness and 
       flexibility of Plug & Play Attacks and their ability to create high-quality images revealing sensitive class characteristics.},
-      code={https://github.com/LukasStruppek/Plug-and-Play-Attacks},
-      poster={Plug_and_Play_Attacks_Poster.pdf},
-      selected={true},
-      bibtex_show={true}
+    code={https://github.com/LukasStruppek/Plug-and-Play-Attacks},
+    poster={Plug_and_Play_Attacks_Poster.pdf},
+    selected={true},
+    bibtex_show={true}
   }
 
 @inproceedings{hintersdorf2022trust, 
@@ -133,8 +154,8 @@
                J. Marius Z{\"{o}}llner},
   title     = {Balancing Expert Utilization in Mixture-of-Experts Layers Embedded
                in CNNs},
-  journal   = {CoRR},
-  volume    = {abs/2204.10598},
+  journal   = {arXiv preprint},
+  volume    = {arXiv:2204.10598},
   year      = {2022},
   pdf       = {https://arxiv.org/pdf/2204.10598},
   abstract={This work addresses the problem of unbalanced expert utilization in sparsely-gated Mixture of Expert (MoE) layers, 
