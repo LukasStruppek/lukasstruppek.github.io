@@ -1,5 +1,25 @@
 ---
 ---
+@article{struppek22biasedartist,
+  author = {Struppek, Lukas and Hintersdorf, Dominik and Kersting, Kristian},
+  title = {The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models},
+  journal = {arXiv preprint},
+  volume = {arXiv:2209.08891},
+  year = {2022},
+  pdf = {https://arxiv.org/pdf/2209.08891},
+  abstract={Text-guided image generation models, such as DALL-E 2 and Stable Diffusion, have recently received much attention from academia 
+  and the general public. Provided with textual descriptions, these models are capable of generating high-quality images depicting various 
+  concepts and styles. However, such models are trained on large amounts of public data and implicitly learn relationships from their training 
+  data that are not immediately apparent. We demonstrate that common multimodal models implicitly learned cultural biases that can be triggered 
+  and injected into the generated images by simply replacing single characters in the textual description with visually similar non-Latin characters. 
+  These so-called homoglyph replacements enable malicious users or service providers to induce biases into the generated images and even render 
+  the whole generation process useless. We practically illustrate such attacks on DALL-E 2 and Stable Diffusion as text-guided image generation models 
+  and further show that CLIP also behaves similarly. Our results further indicate that text encoders trained on multilingual data provide a way to 
+  mitigate the effects of homoglyph replacements.},
+  bibtex_show={true},
+  code={https://github.com/LukasStruppek/The-Biased-Artist}
+  }
+
 
 @article{hintersdorf22clipping,
   author = {Dominik Hintersdorf and Lukas Struppek and Kristian Kersting},
