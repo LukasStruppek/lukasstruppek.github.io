@@ -10,6 +10,7 @@
     - name: Languages
       value: German, English, Latin, Ancient Greek
 
+
 - title: Education
   type: time_table
   contents:
@@ -20,7 +21,7 @@
         - title: "Research Focus: Security and privacy preserving machine learning"
           contents:
             - Attacking and defending machine learning systems
-            - Computer vision applications
+            - Focus on computer vision applications
     - title: Industrial Engineering (M.Sc.)
       institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
       year: 2018 - 2020
@@ -28,7 +29,7 @@
         - "Graduation with distinction"
         - "Overall score: 1.1 (on a scale of 1.0 - 5.0, where 1 is the best grade)"
         - "Major field of study: Machine learning & AI, statistics, finance"
-        - "\"Master thesis: Embedding Convolutional Mixture of Experts into Deep Neural Networks for Computer Vision Tasks\", awarded with Faculty Award"
+        - "Master thesis: \"Embedding Convolutional Mixture of Experts into Deep Neural Networks for Computer Vision Tasks\", awarded with Faculty Award"
     - title: Industrial Engineering (B.Sc.)
       institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
       year: 2015-2018
@@ -36,13 +37,13 @@
         - "Graduation with distinction"
         - "Overall score: 1.1 (on a scale of 1.0 - 5.0, where 1 is the best grade)"
         - "Major field of study: Finance, statistics, software engineering, medical technology"
-        - "\"Bachelor thesis: Conception and Realization of a Microservice for Synchronizing User Preferences\""
+        - "Bachelor thesis: \"Conception and Realization of a Microservice for Synchronizing User Preferences\""
     - title: Industrial Engineering (B.Eng.)
       institution: Baden-Wuerttemberg Cooperative State University (DHBW), Loerrach, Germany
       year: 2013-2015
       description:
+        - "Major field of study: international technical sales management"
         - Leaving at request without a degree
-        - "Major field of study: international technical sales management, construction and manufacturing"
     - title: High School Diploma (Abitur)
       institution: Hebel Gymnasium, Loerrach, Germany
       year: 2005-2013
@@ -79,7 +80,7 @@
       institution: Baden-Wuerttemberg Cooperative State University (DHBW), Karlsruhe, Germany
       year: 2019 - 2021
       description:
-        - "Lecturing modern programming concepts for business computer science students"
+        - "Lecturing modern programming concepts in Java for business computer science students"
     - title: Student Assistant - Institute of Applied Informatics and Formal Description Methods (AIFB)
       institution: Karlsruhe Institute of Technology (KIT)
       year: 2016 - 2017
@@ -117,18 +118,6 @@
         - School Award for Ancient Languages, awarded by the foundation Humanismus Heute
 
 
-# - title: Research Interests
-#   type: nested_list
-#   contents:
-#     - title: Security
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Privacy
-#       items:
-#         - Description 1.
-#         - Description 2.
-
 - title: Technical Skills
   type: nested_list
   contents:
@@ -143,8 +132,8 @@
       - PyTorch
       - Scikit-learn
       - NumPy
-      - Matplotlib
       - Pandas
+      - Matplotlib
       - Jupyter
     - title: Operating systems
       items:
@@ -155,15 +144,3 @@
       - "Microsoft Office: Word, Excel, PowerPoint, Outlook, Visio"
       - "Latex"
       - "SQL"
-
-- title: Miscellaneous
-  type: nested_list
-  contents:
-    - title: Hobbies
-      items:
-      - Hiking
-      - Running
-    - title: EduRef - Education for Refugees e.V. 
-      items:
-      - Non-profit organization providing free educational offers for refugees
-      - Board Member (2018 - 2019)
