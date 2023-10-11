@@ -1,7 +1,42 @@
 ---
 ---
+@article{struppek23smoothing,
+  author = {Lukas Struppek and Dominik Hintersdorf and Kristian Kersting},  
+  title = {Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks},
+  journal = {arXiv preprint},
+  volume = {arXiv:2310.06549},
+  year = {2023},
+  pdf = {https://arxiv.org/pdf/2310.06549},
+  abstract= {Label smoothing -- using softened labels instead of hard ones -- is a widely adopted regularization method for deep learning, showing diverse benefits such as enhanced generalization and calibration. 
+  Its implications for preserving model privacy, however, have remained unexplored. To fill this gap, we investigate the impact of label smoothing on model inversion attacks (MIAs), 
+  which aim to generate class-representative samples by exploiting the knowledge encoded in a classifier, thereby inferring sensitive information about its training data. 
+  Through extensive analyses, we uncover that traditional label smoothing fosters MIAs, thereby increasing a model's privacy leakage. Even more, we reveal that smoothing with negative factors counters this trend, 
+  impeding the extraction of class-related information and leading to privacy preservation, beating state-of-the-art defenses. This establishes a practical and powerful novel way for enhancing model resilience against MIAs.},
+  bibtex_show={true},
+  code={https://github.com/LukasStruppek/Plug-and-Play-Attacks},
+}
+
+
+@article{struppek23leveraging,
+  author = {Lukas Struppek* and Martin B. Hentschel* and Clifton Poth* and Dominik Hintersdorf and Kristian Kersting},  
+  title = {Leveraging Diffusion-Based Image Variations for Robust Training on Poisoned Data},
+  journal = {arXiv preprint},
+  volume = {arXiv:2310.06372},
+  year = {2023},
+  pdf = {https://arxiv.org/pdf/2310.06372},
+  abstract= {Backdoor attacks pose a serious security threat for training neural networks as they surreptitiously introduce hidden functionalities into a model. 
+  Such backdoors remain silent during inference on clean inputs, evading detection due to inconspicuous behavior. However, once a specific trigger pattern appears in the input data, 
+  the backdoor activates, causing the model to execute its concealed function. Detecting such poisoned samples within vast datasets is virtually impossible through manual inspection.
+  To address this challenge, we propose a novel approach that enables model training on potentially poisoned datasets by utilizing the power of recent diffusion models. 
+  Specifically, we create synthetic variations of all training samples, leveraging the inherent resilience of diffusion models to potential trigger patterns in the data. 
+  By combining this generative approach with knowledge distillation, we produce student models that maintain their general performance on the task while exhibiting robust resistance to backdoor triggers.},
+  bibtex_show={true},
+  code={https://github.com/LukasStruppek/Robust_Training_on_Poisoned_Samples},
+}
+
+
 @article{hintersdorf23balancing,
-  author = {Dominik Hintersdorf and Lukas Struppek and Kristian Kersting},  
+  author = {Dominik Hintersdorf* and Lukas Struppek* and Kristian Kersting},  
   title = {Balancing Transparency and Risk: The Security and Privacy Risks of Open-Source Machine Learning Models},
   journal = {arXiv preprint},
   volume = {arXiv:2308.09490},
@@ -57,20 +92,19 @@
  code={https://github.com/ml-research/Fair-Diffusion}
 }
 
-
-@article{brack23sega,
+@inproceedings{brack23sega,
  author = {Manuel Brack and Felix Friedrich and Dominik Hintersdorf and Lukas Struppek and Patrick Schramowski and Kristian Kersting},
- title = {SEGA: Instructing Diffusion using Semantic Dimensions},
- journal = {arXiv preprint},
- volume = {arXiv:2301.12247},
+ title = {SEGA: Instructing Text-to-Image Models using Semantic Guidance},
+ booktitle = {Proceedings of the 37th Conference on Neural Information Processing Systems (NeurIPS)},
+ pages = {},
  year = {2023},
  pdf = {https://arxiv.org/pdf/2301.12247},
- abstract = {Text-to-image diffusion models have recently received a lot of interest for their astonishing ability to produce 
- high-fidelity images from text only. However, achieving one-shot generation that aligns with the user's intent is nearly impossible, 
- yet small changes to the input prompt often result in very different images. This leaves the user with little semantic control. 
- To put the user in control, we show how to interact with the diffusion process to flexibly steer it along semantic directions. 
- This semantic guidance (SEGA) allows for subtle and extensive edits, changes in composition and style, as well as optimizing the overall 
- artistic conception. We demonstrate SEGA's effectiveness on a variety of tasks and provide evidence for its versatility and flexibility.},
+ abstract = {Text-to-image diffusion models have recently received a lot of interest for their astonishing ability to produce high-fidelity images from text only. 
+ However, achieving one-shot generation that aligns with the user’s intent is nearly impossible, yet small changes to the input prompt often result in very different images. 
+ This leaves the user with little semantic control. To put the user in control, we show how to interact with the diffusion process to flexibly steer it along semantic directions. 
+ This semantic guidance (SEGA) generalizes to any generative architecture using classifier-free guidance. More importantly, it allows for subtle and extensive edits, composition and style changes, 
+ and optimizing the overall artistic conception. We demonstrate SEGA’s effectiveness on both latent and pixel-based diffusion models such as Stable Diffusion, Paella, and DeepFloyd-IF using a variety of tasks, 
+ thus providing strong evidence for its versatility and flexibility.},
  bibtex_show={true},
  code={https://github.com/ml-research/semantic-image-editing}
 }
