@@ -1,5 +1,21 @@
 ---
 ---
+@inproceedings{struppek24smoothing,
+  author = {Lukas Struppek and Dominik Hintersdorf and Kristian Kersting},  
+  title = {Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  pdf = {https://arxiv.org/pdf/2310.06549},
+  abstract= {Label smoothing -- using softened labels instead of hard ones -- is a widely adopted regularization method for deep learning, showing diverse benefits such as enhanced generalization and calibration. 
+  Its implications for preserving model privacy, however, have remained unexplored. To fill this gap, we investigate the impact of label smoothing on model inversion attacks (MIAs), 
+  which aim to generate class-representative samples by exploiting the knowledge encoded in a classifier, thereby inferring sensitive information about its training data. 
+  Through extensive analyses, we uncover that traditional label smoothing fosters MIAs, thereby increasing a model's privacy leakage. Even more, we reveal that smoothing with negative factors counters this trend, 
+  impeding the extraction of class-related information and leading to privacy preservation, beating state-of-the-art defenses. This establishes a practical and powerful novel way for enhancing model resilience against MIAs.},
+  year={2024},
+  bibtex_show={true},
+  selected={true},
+  code={https://github.com/LukasStruppek/Plug-and-Play-Attacks},
+}
+
 @article{hintersdorf23defending,
   author = {Dominik Hintersdorf and Lukas Struppek and Daniel Neider and Kristian Kersting},  
   title = {Defending Our Privacy With Backdoors},
@@ -15,23 +31,6 @@
   enhance the privacy of individuals within models trained on uncurated web-scraped data.},
   bibtex_show={true},
   code={https://github.com/D0miH/Defending-Our-Privacy-With-Backdoors},
-}
-
-
-@article{struppek23smoothing,
-  author = {Lukas Struppek and Dominik Hintersdorf and Kristian Kersting},  
-  title = {Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks},
-  journal = {arXiv preprint},
-  volume = {arXiv:2310.06549},
-  year = {2023},
-  pdf = {https://arxiv.org/pdf/2310.06549},
-  abstract= {Label smoothing -- using softened labels instead of hard ones -- is a widely adopted regularization method for deep learning, showing diverse benefits such as enhanced generalization and calibration. 
-  Its implications for preserving model privacy, however, have remained unexplored. To fill this gap, we investigate the impact of label smoothing on model inversion attacks (MIAs), 
-  which aim to generate class-representative samples by exploiting the knowledge encoded in a classifier, thereby inferring sensitive information about its training data. 
-  Through extensive analyses, we uncover that traditional label smoothing fosters MIAs, thereby increasing a model's privacy leakage. Even more, we reveal that smoothing with negative factors counters this trend, 
-  impeding the extraction of class-related information and leading to privacy preservation, beating state-of-the-art defenses. This establishes a practical and powerful novel way for enhancing model resilience against MIAs.},
-  bibtex_show={true},
-  code={https://github.com/LukasStruppek/Plug-and-Play-Attacks},
 }
 
 
