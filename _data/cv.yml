@@ -53,7 +53,12 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant - Artificial Intelligence and Machine Learning Lab
+    - title: Research Scientist
+      institution: German Research Center for Artificial Intelligence (DFKI), Darmstadt, Germany
+      year: 2024 - today
+      description:
+      - "Working on foundations of trustworthy AI systems."
+    - title: Ph.D. student - Artificial Intelligence and Machine Learning Lab
       institution: Technical University of Darmstadt, Darmstadt, Germany
       year: 2021 - today
       description:
