@@ -1,21 +1,18 @@
 ---
 ---
-
-@article{struppek24adversarialllm,
-  author = {Lukas Struppek and Minh Hieu Le and Dominik Hintersdorf and Kristian Kersting},  
-  title = {Exploring the Adversarial Capabilities of Large Language Models},
-  journal = {International Conference on Learning Representations (ICLR) - Workshop on Secure and Trustworthy Large Language Models},
+@inproceedings{zipperling24collafuse,
+  author = {Domenique Zipperling and Simeon Allmendinger and Lukas Struppek and Niklas Kühl},  
+  title = {CollaFuse: Navigating Limited Resources and Privacy in Collaborative Generative AI},
+  pdf = {https://arxiv.org/pdf/2402.19105.pdf},
   year = {2024},
-  pdf = {https://arxiv.org/pdf/2402.09132},
-  abstract= {The proliferation of large language models (LLMs) has sparked widespread and general interest due to their strong language generation capabilities, 
-  offering great potential for both industry and research. While previous research delved into the security and privacy issues of LLMs, the extent to which these models can exhibit adversarial behavior remains largely unexplored. 
-  Addressing this gap, we investigate whether common publicly available LLMs have inherent capabilities to perturb text samples to fool safety measures, so-called adversarial examples resp.~attacks. 
-  More specifically, we investigate whether LLMs are inherently able to craft adversarial examples out of benign samples to fool existing safe rails. Our experiments, which focus on hate speech detection, 
-  reveal that LLMs succeed in finding adversarial perturbations, effectively undermining hate speech detection systems. Our findings carry significant implications for (semi-)autonomous systems relying on LLMs, 
-  highlighting potential challenges in their interaction with existing systems and safety measures.},
+  booktitle = {European Conference on Information Systems (ECIS)},
+  abstract= {In the landscape of generative artificial intelligence, diffusion-based models present challenges for socio-technical systems in data requirements and privacy. Traditional approaches like federated learning distribute the learning process but strain individual clients, 
+  especially with constrained resources (e.g., edge devices). In response to these challenges, we introduce CollaFuse, a novel framework inspired by split learning. Tailored for efficient and collaborative use of denoising diffusion probabilistic models, 
+  CollaFuse enables shared server training and inference, alleviating client computational burdens. This is achieved by retaining data and computationally inexpensive GPU processes locally at each client while outsourcing the computationally expensive processes to the shared server. 
+  Demonstrated in a healthcare context, CollaFuse enhances privacy by highly reducing the need for sensitive information sharing. These capabilities hold the potential to impact various application areas, such as the design of edge computing solutions, healthcare research, 
+  or autonomous driving. In essence, our work advances distributed machine learning, shaping the future of collaborative GenAI networks.},
   bibtex_show={true},
 }
-
 
 @inproceedings{struppek24smoothing,
   author = {Lukas Struppek and Dominik Hintersdorf and Kristian Kersting},  
