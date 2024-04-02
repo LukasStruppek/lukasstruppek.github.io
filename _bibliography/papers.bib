@@ -46,6 +46,25 @@
   poster={Smoothing_Poster.pdf}
 }
 
+@article{hintersdorf24clipknow,
+  author = {Dominik Hintersdorf and Lukas Struppek and Manuel Brack and Felix Friedrich and Patrick Schramowski and Kristian Kersting},
+  title     = {Does CLIP Know My Face?},
+  journal = {Journal of Artificial Intelligence Research (JAIR)},
+  year      = {2024},
+  pdf       = {https://arxiv.org/pdf/2209.07341},
+  abstract={With the rise of deep learning in various applications, privacy concerns around the protection of training data has become a 
+  critical area of research. Whereas prior studies have focused on privacy risks in single-modal models, we introduce a novel method to 
+  assess privacy for multi-modal models, specifically vision-language models like CLIP. The proposed Identity Inference Attack (IDIA) 
+  reveals whether an individual was included in the training data by querying the model with images of the same person. Letting the model 
+  choose from a wide variety of possible text labels, the model reveals whether it recognizes the person and, therefore, was used for training. 
+  Our large-scale experiments on CLIP demonstrate that individuals used for training can be identified with very high accuracy. We confirm that 
+  the model has learned to associate names with depicted individuals, implying the existence of sensitive information that can be extracted by 
+  adversaries. Our results highlight the need for stronger privacy protection in large-scale models and suggest that IDIAs can be used to prove 
+  the unauthorized use of data for training and to enforce privacy laws.},
+  bibtex_show={true},
+  code={https://github.com/D0miH/does-clip-know-my-face}
+}
+
 @article{hintersdorf23defending,
   author = {Dominik Hintersdorf and Lukas Struppek and Daniel Neider and Kristian Kersting},  
   title = {Defending Our Privacy With Backdoors},
@@ -195,27 +214,6 @@
   selected={true},
   code={https://github.com/LukasStruppek/Exploiting-Cultural-Biases-via-Homoglyphs}
   }
-
-
-@article{hintersdorf22clipknow,
-  author = {Dominik Hintersdorf and Lukas Struppek and Manuel Brack and Felix Friedrich and Patrick Schramowski and Kristian Kersting},
-  title     = {Does CLIP Know My Face?},
-  journal   = {arXiv preprint},
-  volume    = {arXiv:2209.07341},
-  year      = {2022},
-  pdf       = {https://arxiv.org/pdf/2209.07341},
-  abstract={With the rise of deep learning in various applications, privacy concerns around the protection of training data has become a 
-  critical area of research. Whereas prior studies have focused on privacy risks in single-modal models, we introduce a novel method to 
-  assess privacy for multi-modal models, specifically vision-language models like CLIP. The proposed Identity Inference Attack (IDIA) 
-  reveals whether an individual was included in the training data by querying the model with images of the same person. Letting the model 
-  choose from a wide variety of possible text labels, the model reveals whether it recognizes the person and, therefore, was used for training. 
-  Our large-scale experiments on CLIP demonstrate that individuals used for training can be identified with very high accuracy. We confirm that 
-  the model has learned to associate names with depicted individuals, implying the existence of sensitive information that can be extracted by 
-  adversaries. Our results highlight the need for stronger privacy protection in large-scale models and suggest that IDIAs can be used to prove 
-  the unauthorized use of data for training and to enforce privacy laws.},
-  bibtex_show={true},
-  code={https://github.com/D0miH/does-clip-know-my-face}
-}
 
 @inproceedings{uhlig22dlam,
   author    = {Frieder Uhlig* and
