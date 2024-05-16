@@ -106,6 +106,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - "Best Paper Award of the Workshop on Navigating and Addressing Data Problems for Foundation Models (DPFM) @ International Conference on Learning Representations (ICLR)"
     - year: 2023
       items: 
         - Top Reviewer at NeurIPS 2023
