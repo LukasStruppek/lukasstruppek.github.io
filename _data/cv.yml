@@ -1,4 +1,4 @@
-- title: General Information
+- title: Personal Information
   type: map
   contents:
     - name: Name
@@ -8,7 +8,6 @@
     - name: Languages
       value: German, English, Latin, Ancient Greek
 
-
 - title: Education
   type: time_table
   contents:
@@ -16,10 +15,10 @@
       institution: Technical University of Darmstadt, Darmstadt, Germany
       year: 2021 - today
       description:
-        - title: "Research Focus: Security and privacy preserving machine learning"
+        - title: "Research Focus: Secure, private, and trustworthy machine learning"
           contents:
             - Attacking and defending machine learning systems
-            - Focus on computer vision applications
+            - Focus on systems in the context of generative AI
     - title: Industrial Engineering (M.Sc.)
       institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
       year: 2018 - 2020
@@ -70,7 +69,7 @@
         - "Supervisor for the courses Introduction to Programming: Java und Advanced Programming - Java Network Programming" 
         - "Supervising 40 tutors and approx. 700 students"
         - "Creating exams and lecturing as a substitute"
-        - "Supervisor for the seminars Modern Web Development with JavaScript und Robot Programming and Artificial Intelligence with Python"
+        - "Supervisor for the seminars Modern Web Development with JavaScript and Robot Programming and Artificial Intelligence with Python"
     - title: Intern (Consulting)
       institution: d-fine, Frankfurt, Germany
       year: 2019
@@ -108,35 +107,38 @@
   contents:
     - year: 2024
       items: 
-        - "Best Paper Award of the Workshop on Navigating and Addressing Data Problems for Foundation Models (DPFM) @ International Conference on Learning Representations (ICLR)"
+        - "Best Paper Award, Workshop on Navigating and Addressing Data Problems for Foundation Models (DPFM) @ ICLR"
     - year: 2023
       items: 
-        - Top Reviewer at NeurIPS 2023
+        - Top Reviewer, NeurIPS 2023
     - year: 2022
       items: 
         - Faculty Award of KIT Department of Economics and Management
         - "Best Paper Award of the Workshop on Technology and Consumer Protection (ConPro) @ IEEE Symposium on Security and Privacy"
+    - year: 2018
+      items:
+        - Winner of the Google Impact Challenge
     - year: 2017-2019
       items:
-        - Deutschlandstipendium (scholarship)
+        - Deutschlandstipendium (Germany Scholarship)
     - year: 2013
       items: 
-        - School Award for outstanding achievements in the Abitur
-        - School Award for Economy, awarded by of the association Südwestmetall e.V.
+        - School Award for Outstanding Achievements in the Abitur (High School Diploma)
+        - School Award for Economy, awarded by the Association Südwestmetall e.V.
         - School Award for Physics, awarded by the German Physical Society
-        - School Award for Ancient Languages, awarded by the foundation Humanismus Heute
+        - School Award for Ancient Languages, awarded by the Foundation Humanismus Heute
 
 
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Programming languages and software engineering
+    - title: Programming Languages and Software Engineering
       items:
       - Python
       - Java
       - Git
       - Docker
-    - title: Frameworks
+    - title: Tools and Frameworks
       items:
       - PyTorch
       - Scikit-learn
@@ -144,6 +146,7 @@
       - Pandas
       - Matplotlib
       - Jupyter
+      - Weights & Biases
     - title: Operating systems
       items:
       - Windows
