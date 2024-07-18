@@ -1,97 +1,165 @@
-- title: General Information
+- title: Personal Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Lukas Struppek
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1994
     - name: Languages
-      value: English, German
+      value: German, English, Latin, Ancient Greek
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD - Artificial Intelligence and Machine Learning Lab
+      institution: Technical University of Darmstadt, Darmstadt, Germany
+      year: 2021 - today
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Investigating privacy and security attacks that extract meaningful information or compromise system reliability.
+        - Research on security-critical deep learning applications such as face recognition and interactive systems.
+        - Developing strategies to protect sensitive information, ensuring the privacy and integrity of deep learning systems.    
+    - title: Industrial Engineering (M.Sc.)
+      institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - "Graduation with distinction"
+        - "Overall score: 1.1 (on a scale of 1.0 - 5.0, where 1 is the best grade)"
+        - "Major field of study: Machine learning & AI, statistics, finance"
+        - "Master thesis: \"Embedding Convolutional Mixture of Experts into Deep Neural Networks for Computer Vision Tasks\", awarded with Faculty Award"
+    - title: Industrial Engineering (B.Sc.)
+      institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
+      year: 2015-2018
+      description:
+        - "Graduation with distinction"
+        - "Overall score: 1.1 (on a scale of 1.0 - 5.0, where 1 is the best grade)"
+        - "Major field of study: Finance, statistics, software engineering, medical technology"
+        - "Bachelor thesis: \"Conception and Realization of a Microservice for Synchronizing User Preferences\""
+    - title: Industrial Engineering (B.Eng.)
+      institution: Baden-Wuerttemberg Cooperative State University (DHBW), Loerrach, Germany
+      year: 2013-2015
+      description:
+        - "Major field of study: international technical sales management"
+        - Leaving at request without a degree
+    - title: High School Diploma (Abitur)
+      institution: Hebel Gymnasium, Loerrach, Germany
+      year: 2005-2013
+      description:
+        - "Overall score: 1.0 (on a scale of 1.0 - 6.0, where 1 is the best grade)"
+        - "Awards for outstanding achievements in economics, physics and ancient languages"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist
+      institution: German Research Center for Artificial Intelligence (DFKI), Darmstadt, Germany
+      year: 2024 - today
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research on machine learning models' security, privacy, and safety, especially in multimodal systems and generative AI.
+        - Investigating vulnerabilities, attack vectors, and defense mechanisms to enhance AI system reliability and trustworthiness.
+        - Developing robust methods to advance research in AI security and privacy.
+        - Aiming to create innovative, secure, and reliable AI systems for real-world applications.
+    - title: Research Assistant - Institute of Applied Informatics and Formal Description Methods (AIFB)
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Research Assistant in the Applied Technical-Cognitive Systems Group.
+        - Coordinating beginner and advanced Java programming courses, including substitute lecturing.
+        - Supervising a group of 40 tutors and approximately 700 students per semester.
+        - Overseeing the seminar "Selected Advanced Programming Topics".
+    - title: Consultant Internship
+      institution: d-fine, Frankfurt, Germany
+      year: 2019
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Developing a named entity recognition system using LSTM networks.
+        - Supporting overall project management in a change management initiative, including strategic planning and project control.
+        - Assisting in the preparation of a BaFin permit application.
+    - title: Lecturer for Software Engineering
+      institution: Baden-Wuerttemberg Cooperative State University (DHBW), Karlsruhe, Germany
+      year: 2019 - 2021
+      description:
+        - Lecturing modern programming concepts in Java for business computer science students
+    - title: Student Assistant - Institute of Applied Informatics and Formal Description Methods (AIFB)
+      institution: Karlsruhe Institute of Technology (KIT)
+      year: 2016 - 2017
+      description:
+        - "Tutor for the courses Introduction to Programming: Java and Advanced Programming - Java Network Programming"
+    - title: Management Internship
+      institution: Suva (Swiss National Accident Insurance Fund), Basel, Switzerland
+      year: 2016
+      description:
+        - Conducting process analysis in risk management, care, and administration.
+        - Developing concepts and strategies for non-work-related accident prevention in an international context.
+    - title: Dual Study Program in Industrial Engineering
+      institution: TRUMPF Hüttinger, Freiburg, Germany
+      year: 2013 - 2015
+      description:
+        - "Strategic & Operative Buying Department: Selecting suppliers, calculating and reviewing optimal order sizes, and conducting value analysis to ensure cost efficiency."
+        - "Marketing & Sales Department: Planning company exhibitions, conceptualizing advertising media, and developing compelling presentations to enhance brand visibility."
+        - "Production and Logistics: Acquiring foundational knowledge of industrial production techniques and supporting production preparation to streamline processes."
+        - "Additional Responsibilities: Organizing internal workshops for apprentices."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
+      items: 
+        - "Best Paper Award, Workshop on Navigating and Addressing Data Problems for Foundation Models (DPFM) @ ICLR"
+    - year: 2023
+      items: 
+        - Top Reviewer, NeurIPS 2023
+    - year: 2022
+      items: 
+        - Faculty Award of KIT Department of Economics and Management
+        - "Best Paper Award of the Workshop on Technology and Consumer Protection (ConPro) @ IEEE Symposium on Security and Privacy"
+    - year: 2018
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Winner of the Google Impact Challenge
+    - year: 2017-2019
       items:
-        - Max Planck Medal
+        - Deutschlandstipendium (Germany Scholarship)
+    - year: 2013
+      items: 
+        - School Award for Outstanding Achievements in the Abitur (High School Diploma)
+        - School Award for Economy, awarded by the Association Südwestmetall e.V.
+        - School Award for Physics, awarded by the German Physical Society
+        - School Award for Ancient Languages, awarded by the Foundation Humanismus Heute
 
-- title: Academic Interests
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages and Software Engineering
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+      - Python
+      - Java
+      - Git
+      - Docker
+    - title: Tools and Frameworks
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+      - PyTorch
+      - Scikit-learn
+      - NumPy
+      - Pandas
+      - Matplotlib
+      - Jupyter
+      - Weights & Biases
+    - title: Operating systems
+      items:
+      - Windows
+      - Ubuntu
+    - title: Miscellaneous
+      items:
+      - "Microsoft Office: Word, Excel, PowerPoint, Outlook, Visio"
+      - "Latex"
+      - "SQL"
