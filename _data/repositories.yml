@@ -1,14 +1,21 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - LukasStruppek
+  # - torvalds
+  # - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - LukasStruppek/Plug-and-Play-Attacks
+  - LukasStruppek/Rickrolling-the-Artist
+  - LukasStruppek/Exploiting-Cultural-Biases-via-Homoglyphs
+  - ml-research/Learning-to-Break-Deep-Perceptual-Hashing
+  - ml-research/localizing_memorization_in_diffusion_models
+  - LukasStruppek/Class_Attribute_Inference_Attacks
+  # - alshedivat/al-folio
+  # - jekyll/jekyll
+  # - twbs/bootstrap
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - mathjax/MathJax
+  # - jpswalsh/academicons
