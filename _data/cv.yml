@@ -154,6 +154,7 @@
       - Matplotlib
       - Jupyter
       - Weights & Biases
+      - Huggingface Face
     - title: Operating systems
       items:
       - Windows
