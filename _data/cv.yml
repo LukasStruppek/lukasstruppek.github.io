@@ -23,7 +23,7 @@
       year: 2018 - 2020
       description:
         - "Graduation with distinction"
-        - "Overall score: 1.1 (on a scale of 1.0 - 5.0, where 1 is the best grade)"
+        - "Overall score: 1.1 (GPA: 3.9)"
         - "Major field of study: Machine learning & AI, statistics, finance"
         - "Master thesis: \"Embedding Convolutional Mixture of Experts into Deep Neural Networks for Computer Vision Tasks\", awarded with Faculty Award"
     - title: Industrial Engineering (B.Sc.)
@@ -31,7 +31,7 @@
       year: 2015-2018
       description:
         - "Graduation with distinction"
-        - "Overall score: 1.1 (on a scale of 1.0 - 5.0, where 1 is the best grade)"
+        - "Overall score: 1.1 (GPA: 3.9)"
         - "Major field of study: Finance, statistics, software engineering, medical technology"
         - "Bachelor thesis: \"Conception and Realization of a Microservice for Synchronizing User Preferences\""
     - title: Industrial Engineering (B.Eng.)
@@ -44,7 +44,7 @@
       institution: Hebel Gymnasium, Loerrach, Germany
       year: 2005-2013
       description:
-        - "Overall score: 1.0 (on a scale of 1.0 - 6.0, where 1 is the best grade)"
+        - "Overall score: 1.0 (GPA: 4.0)"
         - "Awards for outstanding achievements in economics, physics and ancient languages"
 
 - title: Experience
