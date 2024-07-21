@@ -39,7 +39,7 @@
       year: 2013-2015
       description:
         - "Major field of study: international technical sales management"
-        - Leaving at request without a degree
+        - Left at request without a degree
     - title: High School Diploma (Abitur)
       institution: Hebel Gymnasium, Loerrach, Germany
       year: 2005-2013
@@ -65,7 +65,7 @@
         - Research Assistant in the Applied Technical-Cognitive Systems Group.
         - Coordinating beginner and advanced Java programming courses, including substitute lecturing.
         - Supervising a group of 40 tutors and approximately 700 students per semester.
-        - Overseeing the seminar "Selected Advanced Programming Topics".
+        - Overseeing the "Selected Advanced Programming Topics Seminar".
     - title: Consultant Internship
       institution: d-fine, Frankfurt, Germany
       year: 2019
@@ -160,6 +160,6 @@
       - Ubuntu
     - title: Miscellaneous
       items:
-      - "Microsoft Office: Word, Excel, PowerPoint, Outlook, Visio"
-      - "Latex"
+      - "Microsoft Office: Word, Excel, PowerPoint, and Outlook"
+      - "LaTeX"
       - "SQL"
