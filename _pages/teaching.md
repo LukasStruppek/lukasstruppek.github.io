@@ -21,6 +21,8 @@ nav_order: 6
 - 2017: Advanced Programming - Java Network Programming (Karlsruhe Institute of Technology)
 
 ## Supervised Theses
+- Determining Correlation between Model- and Dataset-Bias via Privacy Attacks (Master's thesis)
+- Model Inversion Attacks for Bias Evaluation in Image Classifiers (Master's thesis)
 - Developing Backdoor Attacks for Universal Purpose Segmentation Models (Master's thesis)
 - Defending Membership Inference Attacks with Diffusion-based Image Variations (Master's thesis)
 - Integrating Image-Scaling Attacks into Generative Adversarial Networks (Master's thesis)
@@ -33,4 +35,3 @@ nav_order: 6
 - Generative Model Inversion Attacks by Style Vector Optimization (Bachelor's thesis)
 - Investigating the Robustness of CLIP to Adversarial Text Attacks in the Context of Text-to-Image Synthesis (Bachelor's thesis)
 - Investigating the Effectiveness of Model Inversion Attacks Against Model Ensembles (Bachelor's thesis)
-
