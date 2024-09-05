@@ -21,7 +21,6 @@ nav_order: 6
 - 2017: Advanced Programming - Java Network Programming (Karlsruhe Institute of Technology)
 
 ## Supervised Student Theses
-- Exploiting LLMs for Crafting Adversarial Text Examples
 - Determining Correlation between Model- and Dataset-Bias via Privacy Attacks (Master's thesis)
 - Model Inversion Attacks for Bias Evaluation in Image Classifiers (Master's thesis)
 - Developing Backdoor Attacks for Universal Purpose Segmentation Models (Master's thesis)
@@ -33,6 +32,8 @@ nav_order: 6
 - Evaluating and Improving Code-Change Representations for Commit-Level Vulnerability Detection (Master's thesis)
 - Evaluation of Anomaly Detection in Fuzzy Hashes through Synthetic Data (Master's thesis)
 - Inferring Identity in Membership Inference Attacks on Deep Neural Networks (Master's thesis)
+
+- Exploiting LLMs for Crafting Adversarial Text Examples (Bachelor's thesis)
 - Generative Model Inversion Attacks by Style Vector Optimization (Bachelor's thesis)
 - Investigating the Robustness of CLIP to Adversarial Text Attacks in the Context of Text-to-Image Synthesis (Bachelor's thesis)
 - Investigating the Effectiveness of Model Inversion Attacks Against Model Ensembles (Bachelor's thesis)
