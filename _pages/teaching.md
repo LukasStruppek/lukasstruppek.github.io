@@ -20,7 +20,8 @@ nav_order: 6
 - 2016 -- 2017: Introduction to Programming with Java (Karlsruhe Institute of Technology)
 - 2017: Advanced Programming - Java Network Programming (Karlsruhe Institute of Technology)
 
-## Supervised Theses
+## Supervised Student Theses
+- Exploiting LLMs for Crafting Adversarial Text Examples
 - Determining Correlation between Model- and Dataset-Bias via Privacy Attacks (Master's thesis)
 - Model Inversion Attacks for Bias Evaluation in Image Classifiers (Master's thesis)
 - Developing Backdoor Attacks for Universal Purpose Segmentation Models (Master's thesis)
