@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 ## Lecturer
-- 2019 -- 2021: Software Engineering (Duale Hochschule Baden-Württemberg (DHBW) Karlsruhe)
+- 2019 -- 2021: Software Engineering (Baden-Wuerttemberg Cooperative State University (DHBW) Karlsruhe)
 
 ## Course Instructor
 - 2023: Data Mining and Machine Learning (Technical University of Darmstadt)
