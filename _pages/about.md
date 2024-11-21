@@ -26,4 +26,4 @@ Previously, I received a M.Sc. and B.Sc in Industrial Engineering and Management
 
 I am always happy to collaborate and discuss novel research ideas. Feel free to get in touch!
 
-**Open to research job opportunities!**
+:fire: **Open to research job opportunities!** :fire:
