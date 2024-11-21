@@ -23,3 +23,7 @@ I am a research scientist at the [German Research Center for Artificial Intellig
 My research focuses on two primary directions for trustworthy and adversarial machine learning. First, I explore the potential adversarial threats to machine learning models, particularly in the context of generative AI. Second, I examine the security and trustworthiness of generative AI systems themselves. In both areas, my research often investigates adversarial settings where a generative model is either part of an attack or under attack itself. My ultimate goal is to make machine learning models and AI systems reliable for deployment, opening their incredible potential to improve our lives.
 
 Previously, I received a M.Sc. and B.Sc in Industrial Engineering and Management at [Karlsruhe Institute of Technology (KIT)](https://www.kit.edu/english/). I have also been a research assistant in the [Applied Technical-Cognitive Systems](https://atks.aifb.kit.edu/english/index.php) at KIT.
+
+I am always happy to collaborate and discuss novel research ideas. Feel free to get in touch!
+
+**Open to research job opportunities!**
