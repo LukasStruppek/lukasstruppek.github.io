@@ -1,4 +1,31 @@
 ---
+@article{steinmann25shortcuts,
+  author = {Lukas Struppek},  
+  title = {Understanding and Mitigating Security, Privacy, and Ethical Risks in Generative Artificial Intelligence},
+  journal = {Technische Universität Darmstadt},
+  volume = {2025},
+  year = {2025},
+  pdf = {https://tuprints.ulb.tu-darmstadt.de/30054/4/dissertation_struppek.pdf},
+  abstract= {Throughout modern history, technical achievements have always been carefully evaluated not only for their benefits but also for their weaknesses, vulnerabilities, and potential for misuse. 
+  The rise of artificial intelligence (AI), arguably one of the most disruptive technologies of the 21st century, is no exception and demands rigorous, continuous assessment of its challenges. The fast development of AI presents significant risks, 
+  making it difficult to align comprehensive analyses with its rapid advancements. These risks are diverse, including threats to data privacy, model security, and ethical integrity, arising from both inherent model limitations and adversarial exploitation.
+  
+  In this thesis, we investigate multiple risks associated with deep learning in the context of generative AI, with a focus on computer vision applications. As a real-world example of AI system risks, we analyze client-side scanning used for illegal content detection, 
+  demonstrating how small input perturbations can exploit weaknesses in deep perceptual hashing and undermine its reliability. Extending our investigation to face recognition systems, we reveal how adversarial parties can reconstruct private characteristics of individuals' 
+  appearances without access to the model's training data. With a novel high-resolution inversion attack, we show that such privacy breaches are exploitable with off-the-shelf generative models. Through extensive analyses, we propose an effective defense mechanism that mitigates this privacy leakage by subtly modifying training labels.
+  
+  The second half of this thesis shifts focus to risks in generative text-to-image synthesis systems. We address unintended memorization by developing the first localization algorithm capable of identifying individual neurons responsible for triggering the replication of training data. 
+  By deactivating these neurons, memorization can be effectively mitigated, preventing data replication without harming the overall model utility. Furthermore, we uncover a surprising sensitivity of these systems to character encodings, which bias the image generation toward 
+  specific cultural representations and stereotypes, and propose an efficient mitigation strategy to address this issue. Finally, we explore the susceptibility of pre-trained system components to malicious manipulations, 
+  demonstrating how small, hardly detectable parameter changes can embed hidden backdoor functionalities capable of overtaking the image-generation process.
+
+  Our research emphasizes the importance of addressing both adversarial exploitation and inherent vulnerabilities in deep learning and generative AI systems. It not only underscores the demand for novel mitigation and defense strategies but also offers concrete solutions to multiple risks. 
+  By understanding and mitigating these challenges, we can foster confidence in AI technologies and pave the way for building reliable and trustworthy applications.},
+  bibtex_show={true},
+  preview={25_phd_thesis.png},
+}
+
+
 @article{singhi25dinohash,
   author = {Shree Singhi, Aayush Gupta, Lukas Struppek},  
   title = {DINOHash: Learning Adversarially Robust Perceptual Hashes from Self-Supervised Features},
