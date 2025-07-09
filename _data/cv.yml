@@ -43,8 +43,8 @@
       institution: Hebel Gymnasium, Loerrach, Germany
       year: 2005-2013
       description:
-        - "Overall score: 1.0 (GPA: 4.0)"
-        - "Awards for outstanding achievements in economics, physics and ancient languages"
+        - "Overall score: 1.0 (GPA: 4.0), Top 1.6%"
+        - "Awards for outstanding achievements in economics, physics, and ancient languages"
 
 - title: Experience
   type: time_table
@@ -54,9 +54,9 @@
       year: 2024 - today
       description:
         - Research on machine learning models' security, privacy, and safety, especially in multimodal systems and generative AI.
+        - Developing, improving, and evaluating guardrails for generative AI systems.
         - Investigating vulnerabilities, attack vectors, and defense mechanisms to enhance AI system reliability and trustworthiness.
         - Developing robust methods to advance research in AI security and privacy.
-        - Aiming to create innovative, secure, and reliable AI systems for real-world applications.
     - title: Research Assistant - Institute of Applied Informatics and Formal Description Methods (AIFB)
       institution: Karlsruhe Institute of Technology (KIT)
       year: 2018 - 2020
