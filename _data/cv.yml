@@ -24,7 +24,7 @@
         - "Graduation with distinction"
         - "Overall score: 1.1 (GPA: 3.9), Top 7%"
         - "Major field of study: Machine learning & AI, statistics, finance"
-        - "Master thesis: \"Embedding Convolutional Mixture of Experts into Deep Neural Networks for Computer Vision Tasks\", awarded with Faculty Award"
+        - "Master's thesis: \"Embedding Convolutional Mixture of Experts into Deep Neural Networks for Computer Vision Tasks\", awarded with Faculty Award"
     - title: Industrial Engineering (B.Sc.)
       institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
       year: 2015-2018
@@ -32,7 +32,7 @@
         - "Graduation with distinction"
         - "Overall score: 1.1 (GPA: 3.9), Top 0.5%"
         - "Major field of study: Finance, statistics, software engineering, medical technology"
-        - "Bachelor thesis: \"Conception and Realization of a Microservice for Synchronizing User Preferences\""
+        - "Bachelor's thesis: \"Conception and Realization of a Microservice for Synchronizing User Preferences\""
     - title: Industrial Engineering (B.Eng.)
       institution: Baden-Wuerttemberg Cooperative State University (DHBW), Loerrach, Germany
       year: 2013-2015
@@ -49,7 +49,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Scientist
+    - title: Senior Researcher
       institution: German Research Center for Artificial Intelligence (DFKI), Darmstadt, Germany
       year: 2024 - today
       description:
@@ -57,6 +57,7 @@
         - Developing, improving, and evaluating guardrails for generative AI systems.
         - Investigating vulnerabilities, attack vectors, and defense mechanisms to enhance AI system reliability and trustworthiness.
         - Developing robust methods to advance research in AI security and privacy.
+        - Senior Researcher since 08/2025.
     - title: Research Assistant - Institute of Applied Informatics and Formal Description Methods (AIFB)
       institution: Karlsruhe Institute of Technology (KIT)
       year: 2018 - 2020
@@ -73,10 +74,10 @@
         - Supporting overall project management in a change management initiative, including strategic planning and project control.
         - Assisting in the preparation of a BaFin permit application.
     - title: Lecturer for Software Engineering
-      institution: Baden-Wuerttemberg Cooperative State University (DHBW), Karlsruhe, Germany
+      institution: Baden-Württemberg Cooperative State University (DHBW), Karlsruhe, Germany
       year: 2019 - 2021
       description:
-        - Lecturing modern programming concepts in Java for business computer science students
+        - Lecturing on modern programming concepts in Java for business computer science students
     - title: Student Assistant - Institute of Applied Informatics and Formal Description Methods (AIFB)
       institution: Karlsruhe Institute of Technology (KIT)
       year: 2016 - 2017
@@ -163,3 +164,21 @@
       - "Microsoft Office: Word, Excel, PowerPoint, and Outlook"
       - "LaTeX"
       - "SQL"
+
+- title: Academic Services
+  type: nested_list
+  contents:
+    - title: Workshop Organization
+      items:
+      - The Impact of Memorization on Trustworthy Foundation Models @ ICML 2025
+    - title: Reviewing
+      items:
+      - NeurIPS
+      - ICML
+      - ICLR
+      - AAAI
+      - IJCAI
+      - ECML
+      - UAI
+      - Multiple Workshops
+
