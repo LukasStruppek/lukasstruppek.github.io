@@ -18,11 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---  
 
-I am a research scientist at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/en/web). I recently received my PhD from the [Artificial Intelligence and Machine Learning Lab](https://www.ml.informatik.tu-darmstadt.de/) at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/index.en.jsp). 
+I am a senior research scientist at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/en/web). I recently received my PhD from the [Artificial Intelligence and Machine Learning Lab](https://www.ml.informatik.tu-darmstadt.de/) at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/index.en.jsp), where I continue to collaborate.
 
 I am passionate about building trustworthy AI systems that we can rely on. My research focuses on generative and multimodal AI systems, addressing important challenges in security, privacy, and safety. From exploring vulnerabilities to improving robustness and safety, I aim to advance AI technologies in a safe and reliable way.
 
-Previously, I received a M.Sc. and B.Sc in Industrial Engineering and Management at [Karlsruhe Institute of Technology (KIT)](https://www.kit.edu/english/). I have also been a research assistant in the [Applied Technical-Cognitive Systems](https://atks.aifb.kit.edu/english/index.php) at KIT.
+Previously, I received an M.Sc. and a B.Sc. in Industrial Engineering and Management at [Karlsruhe Institute of Technology (KIT)](https://www.kit.edu/english/). I have also been a research assistant in the [Applied Technical-Cognitive Systems](https://atks.aifb.kit.edu/english/index.php) at KIT.
 
 I am always happy to collaborate and discuss novel research ideas. Feel free to get in touch!
 
