@@ -49,9 +49,15 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Senior Researcher
+    - title: Member of Technical Staff (Research Scientist)
+      institution: FAR.AI
+      year: 2025 - Today
+      description:
+        - Researching and addressing AI risks related to misuse, misalignment, and control
+        - Conducting red-teaming and comprehensive evaluations of frontier large language models
+    - title: (Senior) Researcher
       institution: German Research Center for Artificial Intelligence (DFKI), Darmstadt, Germany
-      year: 2024 - today
+      year: 2024 - 2025
       description:
         - Research on machine learning models' security, privacy, and safety, especially in multimodal systems and generative AI.
         - Developing, improving, and evaluating guardrails for generative AI systems.
