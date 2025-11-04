@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: # German Research Center for Artificial Intelligence (DFKI) & Technical University of Darmstadt
+subtitle: # FAR.AI
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---  
 
-I am a senior research scientist at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/en/web). I recently received my PhD (Dr. rer.nat) from the [Artificial Intelligence and Machine Learning Lab](https://www.ml.informatik.tu-darmstadt.de/) at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/index.en.jsp), where I continue to collaborate.
+I am a research scientist at [FAR.AI](https://www.far.ai/), working on robustness and safety of frontier large language models. Previously, I have been a senior research scientist at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/en/web). I received my PhD (Dr. rer.nat) from the [Artificial Intelligence and Machine Learning Lab](https://www.ml.informatik.tu-darmstadt.de/) at the [Technical University of Darmstadt](https://www.tu-darmstadt.de/index.en.jsp).
 
 I am passionate about building trustworthy AI systems that we can rely on. My research focuses on generative and multimodal AI systems, addressing important challenges in security, privacy, and safety. From exploring vulnerabilities to improving robustness and safety, I aim to advance AI technologies in a safe and reliable way.
 
