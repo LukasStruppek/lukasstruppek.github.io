@@ -107,6 +107,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items: 
+        - Gold Reviewer for ICML
     - year: 2025
       items: 
         - "IANUS award for outstanding PhD thesis"
